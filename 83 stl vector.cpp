@@ -58,10 +58,34 @@ void test2(){
     v.push_back(p4);
     v.push_back(p5);
 
+    for(vector<person>::iterator it=v.begin(); it!=v.end(); it++){
+        cout<< "name "<< it->name<< " age "<< (*it).name<< endl;
+    }
+
     for_each(v.begin(),v.end(),pri);
 }
 
+void test3(){
+    vector<person*> v;
+    person p1("sfds",10);
+    person p2("sfds",10);
+    person p3("sfds",10);
+    person p4("sfds",10);
+    person p5("sfds",10);
+
+    v.push_back(&p1);
+    v.push_back(&p2);
+    v.push_back(&p3);
+    v.push_back(&p4);
+    v.push_back(&p5);
+
+    for(vector<person*>::iterator it=v.begin(); it!=v.end(); it++){
+        cout<< "name "<< (*(*it)).name<< " age "<< (*it)->name<< endl;
+    }
+
+}
+
 int main(){
-    test2();
+    test3();
     return 0;
 }
