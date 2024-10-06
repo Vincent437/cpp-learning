@@ -80,7 +80,7 @@ void test3(){
     v.push_back(&p5);
 
     for(vector<person*>::iterator it=v.begin(); it!=v.end(); it++){
-        cout<< "name "<< (*(*it)).name<< " age "<< (*it)->name<< endl;
+        cout<< "name "<< (*(*it)).name<< " age "<< (*it)->age<< endl;
     }
 
 }
