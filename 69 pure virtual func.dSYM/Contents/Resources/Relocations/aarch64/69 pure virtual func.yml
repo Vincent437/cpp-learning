@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vincentzhang/CPP/Learning/69 pure virtual func'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0x50 }
+  - { offsetInCU: 0x2DDE, offset: 0x2DDE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E90, symSize: 0x50 }
+  - { offsetInCU: 0x2E9C, offset: 0x2E9C, size: 0x8, addend: 0x0, symName: __ZN6sonsonC1Ev, symObjAddr: 0x50, symBinAddr: 0x100003EE0, symSize: 0x2C }
+  - { offsetInCU: 0x2EC6, offset: 0x2EC6, size: 0x8, addend: 0x0, symName: __ZN6sonsonC2Ev, symObjAddr: 0x7C, symBinAddr: 0x100003F0C, symSize: 0x44 }
+  - { offsetInCU: 0x2EF0, offset: 0x2EF0, size: 0x8, addend: 0x0, symName: __ZN4BaseC2Ev, symObjAddr: 0xC0, symBinAddr: 0x100003F50, symSize: 0x24 }
+  - { offsetInCU: 0x2F1A, offset: 0x2F1A, size: 0x8, addend: 0x0, symName: __ZN6sonson4funcEv, symObjAddr: 0xE4, symBinAddr: 0x100003F74, symSize: 0x10 }
+...
