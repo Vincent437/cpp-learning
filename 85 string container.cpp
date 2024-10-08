@@ -58,7 +58,7 @@ void test3(){
     str3.append("love");
     str3.append(" games 123456", 6);
     str3.append(str2);
-    str3.append(str2, 10,10);
+    str3.append(str2, 9,10);
 
     cout<< str3<< endl;
 }
