@@ -25,7 +25,7 @@ void test1(){
     printer(v1);
     printer(v2);
 }
-
+// save memory
 void test2(){
     vector<int> v1;
     for (int i =0; i< 100000; i++){
