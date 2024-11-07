@@ -97,7 +97,7 @@ void find_count(){
 
 class compare{
     public:
-    bool operator()(const int &v1, const int &v2){
+    bool operator()(int v1, int v2) const{
         return v1>v2;
     }
 };
