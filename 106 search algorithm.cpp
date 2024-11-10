@@ -215,7 +215,7 @@ void CI2(){
     v.push_back(p3);
     v.push_back(p4);
 
-    cout<< count_if(v.begin(),v.end(), greater20());
+    cout<< count_if(v.begin(),v.end(), greater20())<<endl;
 }
 
 int main(){
